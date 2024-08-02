@@ -1,0 +1,10 @@
+author: plocki
+description: Idk
+api-version: 1.21
+main: de.plocki.blenma.BlockEntityManager
+load: POSTWORLD
+prefix: BlEnMa
+version: 0.00000000000000001-alpha.chaos
+name: BlockEntityManager
+commands:
+  test-blenma:
