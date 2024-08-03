@@ -30,6 +30,8 @@ public class EasyBlock {
 
             block.setBlockData(rotatable);
         }
+
+        block.setBlockData(blockData);
     }
 
     public void rotateBlock(Block block, Axis newAxis) {
@@ -40,6 +42,15 @@ public class EasyBlock {
 
             block.setBlockData(orientable);
         }
+
+        block.setBlockData(blockData);
+    }
+
+    public void setWaterlogged(Block block, boolean logged) {
+        BlockData data = block.getBlockData();
+        Waterlogged waterlogged = (Waterlogged) data;
+        waterlogged.setWaterlogged(logged);
+        block.setBlockData(waterlogged);
     }
 
     public String getBlockInformation(Location location) {
