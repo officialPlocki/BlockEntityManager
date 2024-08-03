@@ -10,11 +10,11 @@ import org.bukkit.block.BlockFace;
 import org.bukkit.block.data.*;
 import org.bukkit.block.data.type.*;
 
-public class EasyBlocks {
+public class EasyBlock {
 
     private final Gson gson;
 
-    public EasyBlocks() {
+    public EasyBlock() {
         gson = new GsonBuilder().setPrettyPrinting().create();
     }
 
