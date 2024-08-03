@@ -59,6 +59,4 @@ public class StupidCow implements Listener {
         }.runTaskTimer(BlockEntityManager.getPlugin(BlockEntityManager.class), 0L, 1L);
     }
 
-    //an diesem punkt habe ich den sinn des plugins aufgegeben, da es absolut dumm ist es universal machen zu wollen.
-
 }

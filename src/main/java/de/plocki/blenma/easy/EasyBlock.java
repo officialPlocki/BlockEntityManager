@@ -222,6 +222,4 @@ public class EasyBlock {
         return jsonObject;
     }
 
-    //habe irgendwann den faden verloren, vielleicht wäre eine datei mit dem was ich machen sollte hilfreich gewesen
-
 }

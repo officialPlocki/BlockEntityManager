@@ -6,7 +6,6 @@ import org.bukkit.block.Furnace;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 
-//kann man auf alle öfen anwenden
 public class EasyFurnace {
 
     public Inventory getFurnaceInventory(Block block) {
